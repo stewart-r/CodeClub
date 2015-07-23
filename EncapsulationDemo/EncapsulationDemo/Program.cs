@@ -10,6 +10,7 @@ namespace EncapsulationDemo
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
