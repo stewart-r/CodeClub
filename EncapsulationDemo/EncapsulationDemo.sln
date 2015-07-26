@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemo", "EncapsulationDemo\EncapsulationDemo.csproj", "{06032EC8-1B7D-497B-8114-D935FF652D78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsualtionDemo.Step1", "EncapsualtionDemo.Step1\EncapsualtionDemo.Step1.csproj", "{0AAA0D04-BB23-4E23-A5F2-35FBE8E6773F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{06032EC8-1B7D-497B-8114-D935FF652D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06032EC8-1B7D-497B-8114-D935FF652D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06032EC8-1B7D-497B-8114-D935FF652D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AAA0D04-BB23-4E23-A5F2-35FBE8E6773F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AAA0D04-BB23-4E23-A5F2-35FBE8E6773F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AAA0D04-BB23-4E23-A5F2-35FBE8E6773F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AAA0D04-BB23-4E23-A5F2-35FBE8E6773F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
