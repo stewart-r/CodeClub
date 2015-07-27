@@ -12,7 +12,7 @@ namespace EncapsulationDemo.Step4
         {
         }
 
-        protected void CalculateAreaOfFace()
+        protected virtual void CalculateAreaOfFace()
         {
             AreaOfFace = Math.Sqrt(3) / 4 * SideLength * SideLength;
         }
