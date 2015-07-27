@@ -8,11 +8,24 @@ namespace EncapsulationDemo.Step2
 {
     class Solid
     {
+        private string solidType;
+
+        public Solid(string solidType)
+        {
+            this.solidType = solidType;
+        }
+
         public double SideLength { get; set; }
 
-        public double CalculateAreaOfFace(string shapeTypeCommand)
+        public double CalculateVolume()
         {
 
         }
+
+        public double CalculateArea()
+        {
+
+        }
+        
     }
 }
