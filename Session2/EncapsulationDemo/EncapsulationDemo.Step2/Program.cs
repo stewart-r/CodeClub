@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EncapsulationDemo.Step2;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,42 +18,12 @@ namespace EncapsulationDemo
                 if (command != "X")
                 {
                     double sideLength = GetSideLength();
-                    double a;
-                    double sa;
-                    double v;
-                    if (command == "1")
-                    {
-                        a = Math.Sqrt(3) / 4 * sideLength * sideLength;
-                        sa = 4 * a;
-                        v = Math.Sqrt(2) / 12 * sideLength * sideLength * sideLength;
-                    }
-                    else if (command == "2")
-                    {
-                        a = sideLength * sideLength;
-                        sa = 6 * a;
-                        v = sideLength * sideLength * sideLength;
-                    }
-                    else if (command == "3")
-                    {
-                        a = Math.Sqrt(3) / 4 * sideLength * sideLength;
-                        sa = 8 * a;
-                        v = Math.Sqrt(2) / 3 * sideLength * sideLength * sideLength;
-                    }
-                    else if (command == "4")
-                    {
-                        a = Math.Sqrt(5 * (5 + 2 * Math.Sqrt(5))) * sideLength * sideLength / 4;
-                        sa = 12 * a;
-                        v = (15 + 7 * Math.Sqrt(5)) / 4 * sideLength * sideLength * sideLength;
-                    }
-                    else
-                    {
-                        a = Math.Sqrt(3) / 4 * sideLength * sideLength;
-                        sa = 20 * a;
-                        v = 5 * (3 + Math.Sqrt(5)) / 12 * sideLength * sideLength * sideLength;
-                    }
 
-                    Console.WriteLine("Surface Area: " + sa);
-                    Console.WriteLine("Volume: " + v);
+                    GeometricSolid solid = new GeometricSolid(command, sideLength);
+                    solid.Calculate();
+
+                    Console.WriteLine("Surface Area: " + solid.SurfaceArea);
+                    Console.WriteLine("Volume: " + solid.Volume);
                     Console.ReadLine();
                 }
             }
