@@ -22,10 +22,12 @@ namespace EncapsulationDemo.Step2
 
         }
 
-        public double CalculateArea()
+        public double CalculateAreaOfSingleFace()
         {
-
+            //test
         }
+
+        public double CalculateSurfaceArea()
         
     }
 }
