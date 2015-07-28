@@ -1,2 +1,0 @@
-# CodeClub
-Code Club Repository
