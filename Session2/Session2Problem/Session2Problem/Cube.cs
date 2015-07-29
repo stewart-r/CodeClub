@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EncapsulationDemo.Step4
+namespace Session2Problem
 {
     class Cube:GeometricSolid
     {
