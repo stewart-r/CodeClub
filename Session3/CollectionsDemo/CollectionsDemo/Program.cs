@@ -10,6 +10,10 @@ namespace CollectionsDemo
     {
         static void Main(string[] args)
         {
+            ArraysExample.Demo();
+
         }
+
+        
     }
 }
