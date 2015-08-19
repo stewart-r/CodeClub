@@ -16,8 +16,9 @@ namespace Puzzle
         public AnagramSolver()
         {
             words = File.ReadAllLines("words.txt").Select(w=>w.ToLower().Trim()).ToList();
-            //Maybe you can do some manipulation here before you begin?
-            // You can add 'class level variables' (know as fields) above
+
+            // Maybe you can do some manipulation here or create collections before you begin?
+
 
         }
 
@@ -25,16 +26,21 @@ namespace Puzzle
         {
             List<string> retVal;
 
-            //replace this with your anagram solving code//////////
-            if (input == "lemon")
-            {
-                retVal = new List<string> { "melon", "lemon" };
-            }
-            else
-            {
-                retVal = new List<string>();
-            }                                       
-            ////////////////////////////////////////////////////////
+            //////////////////////////////////////////////////////////////////////
+            //replace this with your anagram solving code                       //
+            //                                                                  //
+            // hint: Consider that a string can be viewed as an array of char   //
+            //       and think about nested collections                         //
+                                                                                //
+            if (input == "lemon")                                               //
+            {                                                                   //
+                retVal = new List<string> { "melon", "lemon" };                 //
+            }                                                                   //
+            else                                                                //
+            {                                                                   //
+                retVal = new List<string>();                                    //
+            }                                                                   //
+            //////////////////////////////////////////////////////////////////////
 
             return retVal;
         }
