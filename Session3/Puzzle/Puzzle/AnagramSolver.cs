@@ -17,7 +17,7 @@ namespace Puzzle
         {
             words = File.ReadAllLines("words.txt").Select(w=>w.ToLower().Trim()).ToList();
 
-            // Maybe you can do some manipulation here or create collections before you begin?
+            // Maybe you can do some manipulation here or create one or more useful collections before you begin?
 
 
         }
