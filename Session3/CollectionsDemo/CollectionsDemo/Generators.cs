@@ -18,26 +18,16 @@ namespace CollectionsDemo
             }
         }
 
-        static IEnumerable<int> NumbersDivisibleBy3()
-        {
-            int val = 3;
-            while (true)
-            {
-                yield return val;
-                val += 3;
-            }
-        }
-
         public static void Demo()
         {
-            var numbersDvisibleBy2Or3 = EvenNumberGenerator()
-                .Union(NumbersDivisibleBy3());
+            var evenNumbers = EvenNumberGenerator();
 
-            foreach (int i in numbersDvisibleBy2Or3)
+
+            foreach (int i in evenNumbers)
             {
                 Console.WriteLine(i);
 
-                if (i > 1000)
+                if (i >= 1000)
                 {
                     break;
                 }

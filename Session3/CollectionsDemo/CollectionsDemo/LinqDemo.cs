@@ -8,6 +8,12 @@ namespace CollectionsDemo
 {
     public class LinqDemo
     {
+        //IEnumerable is a type that generalises collections
+        //
+        //The Linq extension library provides LOTS of ways of interacting with and manipulating these collections
+        //
+        // This demo doesnt even scratch the surface of the things we can do with Linq - see https://msdn.microsoft.com/en-us/library/bb308959.aspx or google Linq tutorial for more!
+
         static List<int> list = new List<int> { 1, 2, 5, 4 };
         static int[] array = new int[] { 1, 5, 7, 8 };
 
@@ -16,7 +22,7 @@ namespace CollectionsDemo
             var combined = list
                 .Concat(array);
 
-            var combinedAndSortedInDescorder = list
+            var combinedAndSortedInAscOrder = list
                 .Concat(array)
                 .OrderBy(a => a);
 
@@ -31,6 +37,9 @@ namespace CollectionsDemo
             var employeeNumberInOrderOfSalary = employees
                 .OrderByDescending(e => e.Salary)
                 .Select(e => e.EmployeeNumber);
+
+            var employeesPaidOver15k = employees
+                .Where(e => e.Salary > 15000);
         }
 
         static List<Employee> employees = new List<Employee>()

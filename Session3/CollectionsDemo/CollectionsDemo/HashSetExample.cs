@@ -23,9 +23,6 @@ namespace CollectionsDemo
             //.Add() now returns a bool value to indicate if the addition was succesfull;
             bool bcAdded = setOfStrings.Add("bc");
             bool caAdded = setOfStrings.Add("ca");
-            
-            //we have access to some additional methods that change the list too, e.g.:
-            setOfStrings.Add("bd"); //appends a single entry to the end of the list
 
             //Some useful HashSet<> methods:
             HashSet<string> set1 = new HashSet<string>(new string[] { "aa", "ab", "bc" });
