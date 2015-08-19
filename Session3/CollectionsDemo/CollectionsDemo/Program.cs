@@ -11,6 +11,18 @@ namespace CollectionsDemo
         static void Main(string[] args)
         {
             ArraysExample.Demo();
+            ListsExample.Demo();
+            HashSetExample.Demo();
+            QueuesAndStacks.Demo();
+
+            LinqDemo.Demo();
+            LinqDemo.DemoCustomClass();
+
+            Generators.Demo();
+
+            DictionaryExample.Demo();
+
+            
 
         }
 

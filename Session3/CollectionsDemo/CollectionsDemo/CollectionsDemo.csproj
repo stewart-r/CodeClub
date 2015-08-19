@@ -45,8 +45,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArraysExample.cs" />
+    <Compile Include="DictionaryExample.cs" />
+    <Compile Include="Generators.cs" />
     <Compile Include="HashSetExample.cs" />
+    <Compile Include="LinqDemo.cs" />
     <Compile Include="ListsExample.cs" />
+    <Compile Include="NestedCollections.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QueuesAndStacks.cs" />
