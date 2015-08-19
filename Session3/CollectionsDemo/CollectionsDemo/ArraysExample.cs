@@ -34,6 +34,11 @@ namespace CollectionsDemo
             int sizeOfArray = arrayOfintegers.Length;
 
 
+            // strings can be converted to arrays of the char datatype:
+            string s = "Stewart";
+            char[] charArray = s.ToArray();
+            Console.WriteLine(charArray);
+
             Console.ReadLine();
         }
     }

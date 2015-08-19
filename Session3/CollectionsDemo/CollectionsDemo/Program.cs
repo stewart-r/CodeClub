@@ -21,11 +21,6 @@ namespace CollectionsDemo
             Generators.Demo();
 
             DictionaryExample.Demo();
-
-            
-
         }
-
-        
     }
 }
