@@ -13,7 +13,7 @@ namespace Session3Excercise
             //1. Print out the first 5 names in alphabetical order:
 
             
-            //2. How many names begin with the letter "D" (hint you can do myString.StartsWith("X") to determine if a string starts with "X")?
+            //2. How many names begin with the letter "D" (hint: you can do myString.StartsWith("X") to determine if a string starts with "X")?
             
 
             //3. How many names begin with the letter "A" and are 5 characters long?
